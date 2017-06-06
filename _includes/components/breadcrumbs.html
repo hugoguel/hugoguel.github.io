@@ -1,0 +1,15 @@
+<ol class="breadcrumb no-background">
+  {% for breadcrumb in site.data.breadcrumbs[page.breadcrumbs] %}
+    {% if forloop.last %}
+      <li class="active">
+        {{ breadcrumb.title }}
+      </li>
+    {% else %}
+      <li>
+        <a href="{{ breadcrumb.url }}" class="font-bold">
+          {{ breadcrumb.title }}
+        </a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ol><!-- .breadcrumb -->

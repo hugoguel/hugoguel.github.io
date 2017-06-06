@@ -1,0 +1,91 @@
+.btn-primary {
+  color: $color-white;
+  background-color: $color-primary;
+  border-color: $color-primary-dark;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: $color-white;
+  background-color: $color-primary-darkest;
+  border-color: $color-primary-dark;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+ 
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: $color-primary;
+  border-color: $color-primary-dark;
+}
+
+.btn-primary .badge {
+  color: $color-primary;
+  background-color: $color-white;
+}
+
+.btn-accent {
+  color: $color-primary;
+  background-color: $color-accent;
+  border-color: $color-accent-dark;
+}
+
+.btn-accent:hover,
+.btn-accent:focus,
+.btn-accent:active,
+.btn-accent.active,
+.open .dropdown-toggle.btn-accent {
+  color: $color-primary;
+  background-color: $color-accent-darkest;
+  border-color: $color-accent-dark;
+}
+
+.btn-accent:active,
+.btn-accent.active,
+.open .dropdown-toggle.btn-accent {
+  background-image: none;
+}
+
+.btn-accent.disabled,
+.btn-accent[disabled],
+fieldset[disabled] .btn-accent,
+.btn-accent.disabled:hover,
+.btn-accent[disabled]:hover,
+fieldset[disabled] .btn-accent:hover,
+.btn-accent.disabled:focus,
+.btn-accent[disabled]:focus,
+fieldset[disabled] .btn-accent:focus,
+.btn-accent.disabled:active,
+.btn-accent[disabled]:active,
+fieldset[disabled] .btn-accent:active,
+.btn-accent.disabled.active,
+.btn-accent[disabled].active,
+fieldset[disabled] .btn-accent.active {
+  background-color: $color-accent;
+  border-color: $color-accent-dark;
+}
+
+.btn-accent .badge {
+  color: $color-accent;
+  background-color: $color-primary;
+}

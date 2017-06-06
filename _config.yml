@@ -1,0 +1,615 @@
+author: {email: syiree.official@gmail.com}
+baseurl: /
+brand:
+  description: Official Website of Artist Hugo Guel. Discover a collection of Hugo
+    Guel's most prominent artworks.
+  email: hugoguelartist@gmail.com
+  name: Hugo Guel
+  phone: ''
+  social: {facebook: 'https://www.facebook.com/Club-de-Arte-Latino-Americano-Artista-Hugo-Guel-211925969251288'}
+color: {accent: '#EDE9E0', primary: '#464A47'}
+data:
+  about:
+    paragraphs: ['Hugo Guel the Artist was born January 16, 1963, in Nueva Rosita,
+        Coahuila, Mexico, the second of five children. He witnessed a huge mine explosion
+        when he was six and drew a picture of a mother mourning the death of her son.
+        He pursued his talents as an artist and received his first public attention
+        at eighteen when he won first place twice in the CONACUR painting and drawing
+        competition in Saltillo, Coahuila. He achieved his first commercial success
+        with murals displayed in government offices, schools and hospitals during
+        the period of 1983 to 1988, and explored other media such as reliefs and sculptures
+        in wood, iron, bronze, and aluminum, including the 23 foot high iron sculpture
+        of an eagle eating a snake which welcomes visitors to Morelos, Coahuila. He
+        currently produces works for the Laurenzo’s family restaurants, in Houston,
+        Texas.']
+  breadcrumbs:
+    commercial:
+    - &id001 {title: Portfolio, url: /#portfolio}
+    - &id002 {title: Commercial, url: /portfolio/commercial}
+    laurenzo:
+    - *id001
+    - *id002
+    - {title: Laurenzo's El Tiempo Cantina, url: /portfolio/commercial/laurenzo}
+    pasac:
+    - *id001
+    - *id002
+    - {title: PASAC, url: /portfolio/commercial/pasac}
+    portfolio:
+    - *id001
+    sculptures:
+    - *id001
+    - {title: Sculptures, url: /portfolio/sculptures}
+  images:
+    gallery:
+    - {src: /assets/img/gallery/16.jpg}
+    - {src: /assets/img/gallery/3.jpg}
+    - {src: /assets/img/gallery/15.jpg}
+    - {src: /assets/img/gallery/9.jpg}
+    - {src: /assets/img/gallery/4.jpg}
+    - {src: /assets/img/gallery/6.jpg}
+    - {src: /assets/img/gallery/5.jpg}
+    - {src: /assets/img/gallery/7.jpg}
+    - {src: /assets/img/gallery/1.jpg}
+    - {src: /assets/img/gallery/8.jpg}
+    - {src: /assets/img/gallery/14.jpg}
+    - {src: /assets/img/gallery/11.jpg}
+    - {src: /assets/img/gallery/10.jpg}
+    - {src: /assets/img/gallery/13.jpg}
+    - {src: /assets/img/gallery/12.jpg}
+    - {src: /assets/img/gallery/2.jpg}
+    laurenzo:
+    - preview: {src: /assets/img/portfolio/commercial/laurenzo/preview/28.jpg}
+      src: /assets/img/portfolio/commercial/laurenzo/28.jpg
+    - preview: {src: /assets/img/portfolio/commercial/laurenzo/preview/16.jpg}
+      src: /assets/img/portfolio/commercial/laurenzo/16.jpg
+    - preview: {src: /assets/img/portfolio/commercial/laurenzo/preview/3.jpg}
+      src: /assets/img/portfolio/commercial/laurenzo/3.jpg
+    - preview: {src: /assets/img/portfolio/commercial/laurenzo/preview/15.jpg}
+      src: /assets/img/portfolio/commercial/laurenzo/15.jpg
+    - preview: {src: /assets/img/portfolio/commercial/laurenzo/preview/22.jpg}
+      src: /assets/img/portfolio/commercial/laurenzo/22.jpg
+    - preview: {src: /assets/img/portfolio/commercial/laurenzo/preview/19.jpg}
+      src: /assets/img/portfolio/commercial/laurenzo/19.jpg
+    - preview: {src: /assets/img/portfolio/commercial/laurenzo/preview/9.jpg}
+      src: /assets/img/portfolio/commercial/laurenzo/9.jpg
+    - preview: {src: /assets/img/portfolio/commercial/laurenzo/preview/27.jpg}
+      src: /assets/img/portfolio/commercial/laurenzo/27.jpg
+    - preview: {src: /assets/img/portfolio/commercial/laurenzo/preview/31.jpg}
+      src: /assets/img/portfolio/commercial/laurenzo/31.jpg
+    - preview: {src: /assets/img/portfolio/commercial/laurenzo/preview/4.jpg}
+      src: /assets/img/portfolio/commercial/laurenzo/4.jpg
+    - preview: {src: /assets/img/portfolio/commercial/laurenzo/preview/6.jpg}
+      src: /assets/img/portfolio/commercial/laurenzo/6.jpg
+    - preview: {src: /assets/img/portfolio/commercial/laurenzo/preview/5.jpg}
+      src: /assets/img/portfolio/commercial/laurenzo/5.jpg
+    - preview: {src: /assets/img/portfolio/commercial/laurenzo/preview/7.jpg}
+      src: /assets/img/portfolio/commercial/laurenzo/7.jpg
+    - preview: {src: /assets/img/portfolio/commercial/laurenzo/preview/1.jpg}
+      src: /assets/img/portfolio/commercial/laurenzo/1.jpg
+    - preview: {src: /assets/img/portfolio/commercial/laurenzo/preview/21.jpg}
+      src: /assets/img/portfolio/commercial/laurenzo/21.jpg
+    - preview: {src: /assets/img/portfolio/commercial/laurenzo/preview/8.jpg}
+      src: /assets/img/portfolio/commercial/laurenzo/8.jpg
+    - preview: {src: /assets/img/portfolio/commercial/laurenzo/preview/26.jpg}
+      src: /assets/img/portfolio/commercial/laurenzo/26.jpg
+    - preview: {src: /assets/img/portfolio/commercial/laurenzo/preview/14.jpg}
+      src: /assets/img/portfolio/commercial/laurenzo/14.jpg
+    - preview: {src: /assets/img/portfolio/commercial/laurenzo/preview/11.jpg}
+      src: /assets/img/portfolio/commercial/laurenzo/11.jpg
+    - preview: {src: /assets/img/portfolio/commercial/laurenzo/preview/33.jpg}
+      src: /assets/img/portfolio/commercial/laurenzo/33.jpg
+    - preview: {src: /assets/img/portfolio/commercial/laurenzo/preview/10.jpg}
+      src: /assets/img/portfolio/commercial/laurenzo/10.jpg
+    - preview: {src: /assets/img/portfolio/commercial/laurenzo/preview/23.jpg}
+      src: /assets/img/portfolio/commercial/laurenzo/23.jpg
+    - preview: {src: /assets/img/portfolio/commercial/laurenzo/preview/29.jpg}
+      src: /assets/img/portfolio/commercial/laurenzo/29.jpg
+    - preview: {src: /assets/img/portfolio/commercial/laurenzo/preview/30.jpg}
+      src: /assets/img/portfolio/commercial/laurenzo/30.jpg
+    - preview: {src: /assets/img/portfolio/commercial/laurenzo/preview/34.jpg}
+      src: /assets/img/portfolio/commercial/laurenzo/34.jpg
+    - preview: {src: /assets/img/portfolio/commercial/laurenzo/preview/32.jpg}
+      src: /assets/img/portfolio/commercial/laurenzo/32.jpg
+    - preview: {src: /assets/img/portfolio/commercial/laurenzo/preview/18.jpg}
+      src: /assets/img/portfolio/commercial/laurenzo/18.jpg
+    - preview: {src: /assets/img/portfolio/commercial/laurenzo/preview/13.jpg}
+      src: /assets/img/portfolio/commercial/laurenzo/13.jpg
+    - preview: {src: /assets/img/portfolio/commercial/laurenzo/preview/20.jpg}
+      src: /assets/img/portfolio/commercial/laurenzo/20.jpg
+    - preview: {src: /assets/img/portfolio/commercial/laurenzo/preview/12.jpg}
+      src: /assets/img/portfolio/commercial/laurenzo/12.jpg
+    - preview: {src: /assets/img/portfolio/commercial/laurenzo/preview/2.jpg}
+      src: /assets/img/portfolio/commercial/laurenzo/2.jpg
+    - preview: {src: /assets/img/portfolio/commercial/laurenzo/preview/25.jpg}
+      src: /assets/img/portfolio/commercial/laurenzo/25.jpg
+    - preview: {src: /assets/img/portfolio/commercial/laurenzo/preview/35.jpg}
+      src: /assets/img/portfolio/commercial/laurenzo/35.jpg
+    - preview: {src: /assets/img/portfolio/commercial/laurenzo/preview/24.jpg}
+      src: /assets/img/portfolio/commercial/laurenzo/24.jpg
+    - preview: {src: /assets/img/portfolio/commercial/laurenzo/preview/17.jpg}
+      src: /assets/img/portfolio/commercial/laurenzo/17.jpg
+    murals:
+    - {src: /assets/img/portfolio/murals/16.jpg}
+    - {src: /assets/img/portfolio/murals/3.jpg}
+    - {src: /assets/img/portfolio/murals/5.png}
+    - {src: /assets/img/portfolio/murals/15.jpg}
+    - {src: /assets/img/portfolio/murals/19.jpg}
+    - {src: /assets/img/portfolio/murals/9.jpg}
+    - {src: /assets/img/portfolio/murals/4.jpg}
+    - {src: /assets/img/portfolio/murals/6.jpg}
+    - {src: /assets/img/portfolio/murals/7.jpg}
+    - {src: /assets/img/portfolio/murals/1.jpg}
+    - {src: /assets/img/portfolio/murals/8.jpg}
+    - {src: /assets/img/portfolio/murals/14.jpg}
+    - {src: /assets/img/portfolio/murals/11.jpg}
+    - {src: /assets/img/portfolio/murals/10.jpg}
+    - {src: /assets/img/portfolio/murals/18.jpg}
+    - {src: /assets/img/portfolio/murals/13.jpg}
+    - {src: /assets/img/portfolio/murals/12.jpg}
+    - {src: /assets/img/portfolio/murals/2.jpg}
+    - {src: /assets/img/portfolio/murals/17.jpg}
+    paintings:
+    - {src: /assets/img/portfolio/paintings/28.jpg}
+    - {src: /assets/img/portfolio/paintings/40.jpg}
+    - {src: /assets/img/portfolio/paintings/16.jpg}
+    - {src: /assets/img/portfolio/paintings/38.jpg}
+    - {src: /assets/img/portfolio/paintings/44.jpg}
+    - {src: /assets/img/portfolio/paintings/45.jpg}
+    - {src: /assets/img/portfolio/paintings/3.jpg}
+    - {src: /assets/img/portfolio/paintings/47.jpg}
+    - {src: /assets/img/portfolio/paintings/15.jpg}
+    - {src: /assets/img/portfolio/paintings/22.jpg}
+    - {src: /assets/img/portfolio/paintings/19.jpg}
+    - {src: /assets/img/portfolio/paintings/9.jpg}
+    - {src: /assets/img/portfolio/paintings/27.jpg}
+    - {src: /assets/img/portfolio/paintings/31.jpg}
+    - {src: /assets/img/portfolio/paintings/4.jpg}
+    - {src: /assets/img/portfolio/paintings/37.jpg}
+    - {src: /assets/img/portfolio/paintings/6.jpg}
+    - {src: /assets/img/portfolio/paintings/39.jpg}
+    - {src: /assets/img/portfolio/paintings/36.jpg}
+    - {src: /assets/img/portfolio/paintings/49.jpg}
+    - {src: /assets/img/portfolio/paintings/43.jpg}
+    - {src: /assets/img/portfolio/paintings/5.jpg}
+    - {src: /assets/img/portfolio/paintings/7.jpg}
+    - {src: /assets/img/portfolio/paintings/1.jpg}
+    - {src: /assets/img/portfolio/paintings/46.jpg}
+    - {src: /assets/img/portfolio/paintings/21.jpg}
+    - {src: /assets/img/portfolio/paintings/8.jpg}
+    - {src: /assets/img/portfolio/paintings/26.jpg}
+    - {src: /assets/img/portfolio/paintings/14.jpg}
+    - {src: /assets/img/portfolio/paintings/11.jpg}
+    - {src: /assets/img/portfolio/paintings/33.jpg}
+    - {src: /assets/img/portfolio/paintings/10.jpg}
+    - {src: /assets/img/portfolio/paintings/23.jpg}
+    - {src: /assets/img/portfolio/paintings/48.jpg}
+    - {src: /assets/img/portfolio/paintings/29.jpg}
+    - {src: /assets/img/portfolio/paintings/30.jpg}
+    - {src: /assets/img/portfolio/paintings/34.jpg}
+    - {src: /assets/img/portfolio/paintings/32.jpg}
+    - {src: /assets/img/portfolio/paintings/18.jpg}
+    - {src: /assets/img/portfolio/paintings/13.jpg}
+    - {src: /assets/img/portfolio/paintings/41.jpg}
+    - {src: /assets/img/portfolio/paintings/20.jpg}
+    - {src: /assets/img/portfolio/paintings/12.jpg}
+    - {src: /assets/img/portfolio/paintings/2.jpg}
+    - {src: /assets/img/portfolio/paintings/42.jpg}
+    - {src: /assets/img/portfolio/paintings/25.jpg}
+    - {src: /assets/img/portfolio/paintings/35.jpg}
+    - {src: /assets/img/portfolio/paintings/24.jpg}
+    - {src: /assets/img/portfolio/paintings/17.jpg}
+    pasac:
+    - preview: {src: /assets/img/portfolio/commercial/pasac/preview/3.jpg}
+      src: /assets/img/portfolio/commercial/pasac/3.jpg
+    - preview: {src: /assets/img/portfolio/commercial/pasac/preview/15.jpg}
+      src: /assets/img/portfolio/commercial/pasac/15.jpg
+    - preview: {src: /assets/img/portfolio/commercial/pasac/preview/9.jpg}
+      src: /assets/img/portfolio/commercial/pasac/9.jpg
+    - preview: {src: /assets/img/portfolio/commercial/pasac/preview/4.jpg}
+      src: /assets/img/portfolio/commercial/pasac/4.jpg
+    - preview: {src: /assets/img/portfolio/commercial/pasac/preview/6.jpg}
+      src: /assets/img/portfolio/commercial/pasac/6.jpg
+    - preview: {src: /assets/img/portfolio/commercial/pasac/preview/5.jpg}
+      src: /assets/img/portfolio/commercial/pasac/5.jpg
+    - preview: {src: /assets/img/portfolio/commercial/pasac/preview/7.jpg}
+      src: /assets/img/portfolio/commercial/pasac/7.jpg
+    - preview: {src: /assets/img/portfolio/commercial/pasac/preview/1.jpg}
+      src: /assets/img/portfolio/commercial/pasac/1.jpg
+    - preview: {src: /assets/img/portfolio/commercial/pasac/preview/8.jpg}
+      src: /assets/img/portfolio/commercial/pasac/8.jpg
+    - preview: {src: /assets/img/portfolio/commercial/pasac/preview/14.jpg}
+      src: /assets/img/portfolio/commercial/pasac/14.jpg
+    - preview: {src: /assets/img/portfolio/commercial/pasac/preview/11.jpg}
+      src: /assets/img/portfolio/commercial/pasac/11.jpg
+    - preview: {src: /assets/img/portfolio/commercial/pasac/preview/10.jpg}
+      src: /assets/img/portfolio/commercial/pasac/10.jpg
+    - preview: {src: /assets/img/portfolio/commercial/pasac/preview/13.jpg}
+      src: /assets/img/portfolio/commercial/pasac/13.jpg
+    - preview: {src: /assets/img/portfolio/commercial/pasac/preview/12.jpg}
+      src: /assets/img/portfolio/commercial/pasac/12.jpg
+    - preview: {src: /assets/img/portfolio/commercial/pasac/preview/2.jpg}
+      src: /assets/img/portfolio/commercial/pasac/2.jpg
+    sculptures:
+    - preview: {src: /assets/img/portfolio/sculptures/preview/3.jpg}
+      src: /assets/img/portfolio/sculptures/3.jpg
+    - preview: {src: /assets/img/portfolio/sculptures/preview/4.jpg}
+      src: /assets/img/portfolio/sculptures/4.jpg
+    - preview: {src: /assets/img/portfolio/sculptures/preview/6.jpg}
+      src: /assets/img/portfolio/sculptures/6.jpg
+    - preview: {src: /assets/img/portfolio/sculptures/preview/5.jpg}
+      src: /assets/img/portfolio/sculptures/5.jpg
+    - preview: {src: /assets/img/portfolio/sculptures/preview/7.jpg}
+      src: /assets/img/portfolio/sculptures/7.jpg
+    - preview: {src: /assets/img/portfolio/sculptures/preview/1.jpg}
+      src: /assets/img/portfolio/sculptures/1.jpg
+    - preview: {src: /assets/img/portfolio/sculptures/preview/2.jpg}
+      src: /assets/img/portfolio/sculptures/2.jpg
+  navbar:
+    links:
+    - {title: Home, url: /}
+    - {title: Biography, url: /#biography}
+    - dropdown: true
+      menu:
+      - {title: English, url: /assets/data/Hugo-Guel-CV-en.pdf}
+      - {title: Spanish, url: /assets/data/Hugo-Guel-CV-es.pdf}
+      title: CV
+    - {title: Exhibitions, url: /exhibitions.html}
+    - {title: Portfolio, url: /#portfolio}
+    - {title: Store, url: /store.html}
+    - {title: Contact, url: /contact.html}
+  products:
+  - ID: 5897ea73413049dd9e17c94eb6763311
+    frame:
+      paypal: {ID: DEMY23LSTSZJL}
+      price:
+        currency: {code: USD, symbol: $}
+        value: 65
+    image: {src: /assets/img/store/Fighter}
+    medium: [acrylic]
+    name: Fighter
+    paypal: {ID: Q7UYVBHJLAYLS}
+    price:
+      currency: {code: USD, symbol: $}
+      value: 350
+    size: {height: 48, width: 12}
+    type: canvas
+  - ID: ee0c2158e06746d1b4a2578d45653b4a
+    image: {src: /assets/img/store/FridaKahlo1}
+    medium: [acrylic, oil]
+    name: Frida Kahlo 1
+    paypal: {ID: UXSE3CK6KTV3J}
+    price:
+      currency: {code: USD, symbol: $}
+      value: 4500
+    size: {height: 32, width: 32}
+    type: canvas
+  - ID: a45e06a879ed40fa902f030154823af3
+    frame:
+      paypal: {ID: DEMY23LSTSZJL}
+      price:
+        currency: {code: USD, symbol: $}
+        value: 65
+    image: {src: /assets/img/store/FridaKahlo2}
+    medium: [acrylic]
+    name: Frida Kahlo 2
+    paypal: {ID: NWUXUMVWL7KXJ}
+    price:
+      currency: {code: USD, symbol: $}
+      value: 700
+    size: {height: 18, width: 22}
+    type: canvas
+  - ID: c29c81131bb9462788b8dc296a3eb3bc
+    frame:
+      paypal: {ID: UE8QQBUZ77KSJ}
+      price:
+        currency: {code: USD, symbol: $}
+        value: 35
+    image: {src: /assets/img/store/FridaKahlo3}
+    medium: [pencil]
+    name: Frida Kahlo 3
+    paypal: {ID: BZUXATNXQFYYL}
+    price:
+      currency: {code: USD, symbol: $}
+      value: 300
+    size: {height: 14, width: 11}
+    type: paper
+  - ID: e55d82a499e740f1949ce1647e42096f
+    frame:
+      paypal: {ID: UE8QQBUZ77KSJ}
+      price:
+        currency: {code: USD, symbol: $}
+        value: 35
+    image: {src: /assets/img/store/FridaKahlo4}
+    medium: [china ink]
+    name: Frida Kahlo 4
+    paypal: {ID: UJBAKSB6P8P3N}
+    price:
+      currency: {code: USD, symbol: $}
+      value: 350
+    size: {height: 14, width: 11}
+    type: NA
+  - ID: 1b34a6b7f0eb4fe492bfcb27006c9fc1
+    frame:
+      paypal: {ID: DEMY23LSTSZJL}
+      price:
+        currency: {code: USD, symbol: $}
+        value: 65
+    image: {src: /assets/img/store/FridaKahlo5}
+    medium: [acrylic]
+    name: Frida Kahlo 5
+    paypal: {ID: ZJ3MKN9Z39RPA}
+    price:
+      currency: {code: USD, symbol: $}
+      value: 300
+    size: {height: 20, width: 30}
+    type: canvas
+  - ID: 6734b3bf0e604aeb98c47511e0bfab64
+    frame:
+      paypal: {ID: UE8QQBUZ77KSJ}
+      price:
+        currency: {code: USD, symbol: $}
+        value: 35
+    image: {src: /assets/img/store/Girl1}
+    medium: [acrylic]
+    name: Girl 1
+    paypal: {ID: SFUN779KZZ3RW}
+    price:
+      currency: {code: USD, symbol: $}
+      value: 250
+    size: {height: 20, width: 20}
+    type: canvas
+  - ID: 1d2eb54b462b43429ada531ce9627abe
+    frame:
+      paypal: {ID: DEMY23LSTSZJL}
+      price:
+        currency: {code: USD, symbol: $}
+        value: 65
+    image: {src: /assets/img/store/Girl2Potrait}
+    medium: [acrylic]
+    name: Girl 2 Potrait
+    paypal: {ID: HV2HT4RA7L4BJ}
+    price:
+      currency: {code: USD, symbol: $}
+      value: 250
+    size: {height: 30, width: 24}
+    type: canvas
+  - ID: 219e671f8f09413ca26a10c4442977fd
+    frame:
+      paypal: {ID: UE8QQBUZ77KSJ}
+      price:
+        currency: {code: USD, symbol: $}
+        value: 35
+    image: {src: /assets/img/store/GirlsKissing}
+    medium: [acrylic]
+    name: Girls Kissing
+    paypal: {ID: JTEZAEYGJXJV2}
+    price:
+      currency: {code: USD, symbol: $}
+      value: 300
+    size: {height: 20, width: 20}
+    type: canvas
+  - ID: 49d9fa44866d41b09628456c26d9a904
+    frame:
+      paypal: {ID: DEMY23LSTSZJL}
+      price:
+        currency: {code: USD, symbol: $}
+        value: 65
+    image: {src: /assets/img/store/GothicWoman}
+    medium: [acrylic]
+    name: Gothic Woman
+    paypal: {ID: Z62SXGBKBRA42}
+    price:
+      currency: {code: USD, symbol: $}
+      value: 450
+    size: {height: 30, width: 24}
+    type: canvas
+  - ID: bc05445473b94a0191619d7a8ee9fad4
+    frame:
+      paypal: {ID: DEMY23LSTSZJL}
+      price:
+        currency: {code: USD, symbol: $}
+        value: 65
+    image: {src: /assets/img/store/GuitarMan}
+    medium: [acrylic]
+    name: Johnny Cash
+    paypal: {ID: GYBYCGNPT9REJ}
+    price:
+      currency: {code: USD, symbol: $}
+      value: 400
+    size: {height: 30, width: 24}
+    type: canvas
+  - ID: 1e86ff305c244e7a8d2c354bedfe6d59
+    frame:
+      paypal: {ID: DEMY23LSTSZJL}
+      price:
+        currency: {code: USD, symbol: $}
+        value: 65
+    image: {src: /assets/img/store/Lajefa}
+    medium: [water color]
+    name: Lajefa
+    paypal: {ID: U344ZDRRGP2HY}
+    price:
+      currency: {code: USD, symbol: $}
+      value: 300
+    size: {height: 20, width: 30}
+    type: NA
+  - ID: 0c69bbd7259f4f9eb06cd97ad5dd1123
+    frame:
+      paypal: {ID: DEMY23LSTSZJL}
+      price:
+        currency: {code: USD, symbol: $}
+        value: 65
+    image: {src: /assets/img/store/LindoAmaneser}
+    medium: [oil]
+    name: Lindo Amaneser
+    paypal: {ID: KNFTGHZK3S33W}
+    price:
+      currency: {code: USD, symbol: $}
+      value: 450
+    size: {height: 55, width: 32}
+    type: canvas
+  - ID: 880ddc9d544a458caf8bf33230d9f262
+    frame:
+      paypal: {ID: DEMY23LSTSZJL}
+      price:
+        currency: {code: USD, symbol: $}
+        value: 65
+    image: {src: /assets/img/store/Orgullo}
+    medium: [oil]
+    name: Orgullo
+    paypal: {ID: UJQC3ZPYM3A5C}
+    price:
+      currency: {code: USD, symbol: $}
+      value: 250
+    size: {height: 30, width: 24}
+    type: canvas
+  - ID: ab2dd1f74e544b1ba5897fecbe90c21d
+    frame:
+      paypal: {ID: DEMY23LSTSZJL}
+      price:
+        currency: {code: USD, symbol: $}
+        value: 65
+    image: {src: /assets/img/store/OilRig1}
+    medium: [acrylic]
+    name: Oil Rig 1
+    paypal: {ID: MRTX75RVU8BA8}
+    price:
+      currency: {code: USD, symbol: $}
+      value: 450
+    size: {height: 48, width: 24}
+    type: canvas
+  - ID: 354b2c819838497887ac9c6a6b1093f7
+    frame:
+      paypal: {ID: DEMY23LSTSZJL}
+      price:
+        currency: {code: USD, symbol: $}
+        value: 65
+    image: {src: /assets/img/store/OilRig2}
+    medium: [acrylic]
+    name: Oil Rig 2
+    paypal: {ID: FM9Q8YQPVTLTE}
+    price:
+      currency: {code: USD, symbol: $}
+      value: 450
+    size: {height: 48, width: 24}
+    type: canvas
+  - ID: d74f734b701748058f8e30e9a007f53d
+    frame:
+      paypal: {ID: UE8QQBUZ77KSJ}
+      price:
+        currency: {code: USD, symbol: $}
+        value: 35
+    image: {src: /assets/img/store/RedLipstick}
+    medium: [acrylic]
+    name: Red Lipstick
+    paypal: {ID: RUK8YB6C4N3GJ}
+    price:
+      currency: {code: USD, symbol: $}
+      value: 250
+    size: {height: 20, width: 20}
+    type: canvas
+  - ID: 735ad463865144268797faf5fb352eb9
+    frame:
+      paypal: {ID: UE8QQBUZ77KSJ}
+      price:
+        currency: {code: USD, symbol: $}
+        value: 35
+    image: {src: /assets/img/store/Reflejos}
+    medium: ['acrylic, oil']
+    name: Reflejos
+    paypal: {ID: BRBCYNRV54VPS}
+    price:
+      currency: {code: USD, symbol: $}
+      value: 250
+    size: {height: 20, width: 20}
+    type: canvas
+  - ID: b6c542cec2d84111b28bac561f0dee26
+    frame:
+      paypal: {ID: UE8QQBUZ77KSJ}
+      price:
+        currency: {code: USD, symbol: $}
+        value: 35
+    image: {src: /assets/img/store/Shhh}
+    medium: [acrylic]
+    name: Shhh
+    paypal: {ID: C4VJB8FZ6BF6Y}
+    price:
+      currency: {code: USD, symbol: $}
+      value: 250
+    size: {height: 20, width: 20}
+    type: canvas
+  - ID: 54510f7c2213407ea0178d9c4c97ab71
+    frame:
+      paypal: {ID: DEMY23LSTSZJL}
+      price:
+        currency: {code: USD, symbol: $}
+        value: 65
+    image: {src: /assets/img/store/VirginMary}
+    medium: [acrylic]
+    name: Virgin Mary
+    paypal: {ID: 4BHT6YBXQ2JPG}
+    price:
+      currency: {code: USD, symbol: $}
+      value: 250
+    size: {height: 20, width: 30}
+    type: canvas
+  thumbnails:
+    commercial:
+    - image: {src: /assets/img/portfolio/commercial/thumbnails/pasac.jpg}
+      title: PASAC
+      url: /portfolio/commercial/pasac.html
+    - image: {src: /assets/img/portfolio/commercial/thumbnails/laurenzo.jpg}
+      title: Laurenzo's El Tiempo Cantina
+      url: /portfolio/commercial/laurenzo.html
+    portfolio:
+    - image: {src: /assets/img/portfolio/thumbnails/paintings.jpg}
+      title: Paintings
+      url: /portfolio/paintings.html
+    - image: {src: /assets/img/portfolio/thumbnails/murals.jpg}
+      title: Murals
+      url: /portfolio/murals.html
+    - image: {src: /assets/img/portfolio/thumbnails/commercial.jpg}
+      title: Commercial
+      url: /portfolio/commercial
+    - image: {src: /assets/img/portfolio/thumbnails/sculptures.jpg}
+      title: Sculptures
+      url: /portfolio/sculptures.html
+  timelines:
+    exhibition:
+    - content: Pictorial Exposition in Astro Feria, Rosita
+      date: {year: '1984'}
+    - content: Pictorial Exposition in the Galleria, Houston, Texas
+      date: {year: '1988'}
+    - content: Pictorial Exposition, Regional Delegation of INSTITUTE DEL SEGURO SOCIAL,
+        in Monterrey, N.L Mexico
+      date: {year: '1989'}
+    - content: Pictorial Exhibition  “Nueva Rosita, de Noche” and “Santa Prisca” in
+        Acuña, Coahuila, in Nueva Rosita, Coahuila
+      date: {year: '1991'}
+    timeline:
+    - content: Born in México
+      date: {year: '1963'}
+    - content: Won the first place in Conacur painting and drawing competition
+      date: {year: '1981'}
+    - content: Moved to Houston, Texas
+      date: {year: '1984'}
+    - content: 23-foot-high iron sculpture of an eagle eating a serpent in Nueva Rosita,
+        Coahuila
+      date: {year: '1993'}
+    - content: “Águila Mexicana” a 22-foot-high stainless steel Morelos, Coahuila
+      date: {year: '1995'}
+    - content: A series of murals for PASAC Dinosaur exhibition for the Region Carbonifera
+        Natural History Museum in Coahuila, México
+      date: {year: '2002'}
+description: Official Website of Artist Hugo Guel. Discover a collection of Hugo Guel's
+  most prominent artworks.
+environment: development
+exclude: [Gemfile, Gemfile.lock, requirements, requirements.txt, build, Makefile,
+  LICENSE, README.md, TODO.md]
+gems: [jekyll-seo-tag]
+lang: en
+path: {assets: /home/achilles/dev/syiree/hugoguel/assets, images: /home/achilles/dev/syiree/hugoguel/assets/img,
+  root: /home/achilles/dev/syiree/hugoguel}
+sass: {style: compressed}
+url: hugoguel.com
+urls: {assets: /assets, data: /assets/data, icons: /assets/img/icons, images: /assets/img}

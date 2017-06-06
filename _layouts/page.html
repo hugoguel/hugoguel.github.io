@@ -1,0 +1,22 @@
+---
+layout: base
+---
+<div class="background-accent">
+  <div class="container">
+    <div class="page-header no-border text-center">
+      <h2 class="text-uppercase font-heavy">
+        {% if page.heading %}
+          {{ page.heading }}
+        {% else %}
+          {{ page.title }}
+        {% endif %}
+      </h2>
+      {% if page.subheading %}
+        <h3>{{ page.subheading }}</h2>
+      {% endif %}
+    </div><!-- .page-header -->
+    <div class="wrapper" style="min-height: 100vh;">
+      {{ content }}
+    </div><!-- .wrapper -->
+  </div><!-- .container -->
+</div><!-- .background-accent -->

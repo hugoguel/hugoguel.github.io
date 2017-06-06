@@ -1,0 +1,90 @@
+---
+layout: page
+title: Store
+---
+<div class="container-fluid">
+  <div class="product">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="panel panel-default no-background no-border no-shadow">
+          <img class="img-responsive center-block product-thumbnail" height="350">
+        </div><!-- .panel -->
+      </div><!-- .col-md-6 -->
+      <div class="col-md-6">
+        <div class="panel panel-default no-background no-border no-shadow">
+          <h1 class="product-name text-md-center font-light" style="color: #795548"></h1>
+          <div class="wrapper">
+            <table class="table no-border">
+              <tr>
+                <td class="col-xs-6">
+                  <select class="selectpicker product-select show-tick"
+                    data-style="btn-accent"
+                    data-width="100%">
+                    <option value="no-frame">No Frame</option>
+                    <option value="frame">Frame</option>
+                  </select>
+                </td>
+                <td class="col-xs-6">
+                  <h4 class="product-price font-bold" style="color: #795548">
+                    <span class="product-price-currency"></span> <span class="product-price-value"></span>
+                  </h4>
+                </td>
+              </tr>
+              <tr>
+                <td class="col-xs-6 font-bold">Size</td>
+                <td class="col-xs-6 product-size"></td>
+              </tr>
+              <tr>
+                <td class="col-xs-6 font-bold">Medium</td>
+                <td class="col-xs-6 product-medium text-capitalize"></td>
+              </tr>
+              <tr>
+                <td class="col-xs-6 font-bold">Type</td>
+                <td class="col-xs-6 product-type text-capitalize"></td>
+              </tr>
+            </table><!-- .table -->
+            <div class="text-md-center">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <form class="fproduct-frame" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                      <input type="hidden" name="cmd" value="_s-xclick">
+                      <input type="hidden" name="hosted_button_id" class="product-frame-paypal-ID">
+                      <button class="btn btn-block btn-primary no-border-radius" type="submit" name="submit">
+                        <div class="text-uppercase">
+                          Add Frame
+                        </div>
+                      </button>
+                    </form>
+                  </div><!-- form-group -->
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <form class="fproduct" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                      <input type="hidden" name="cmd" value="_s-xclick">
+                      <input type="hidden" name="hosted_button_id" class="product-paypal-ID">
+                      <button class="btn btn-block btn-primary no-border-radius" type="submit" name="submit">
+                        <div class="text-uppercase">
+                          Buy Now
+                        </div>
+                      </button>
+                    </form>
+                  </div><!-- .form-group -->
+                </div><!-- .col-md-3 -->
+              </div><!-- .row -->
+            </div>
+          </div><!-- .wrapper -->
+        </div><!-- .panel -->
+      </div><!-- .col-md-6 -->
+    </div><!-- .row -->
+  </div><!-- .wrapper -->
+
+  <div class="wrapper">
+    <hr style="border-top: 3px solid {{ site.color.primary }}">
+      <div class="slick-store">
+      </div><!-- .slick-store -->
+    <hr style="border-top: 3px solid {{ site.color.primary }}">
+  </div><!-- .wrapper -->
+</div>

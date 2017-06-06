@@ -1,0 +1,58 @@
+.color-primary {
+  color: $color-primary !important;
+}
+
+.color-accent {
+  color: $color-accent !important;
+}
+
+.background-primary {
+  background-color: $color-primary !important;
+  color: $color-accent !important;
+
+  a, .link-accent {
+    color: $color-accent;
+
+    &:hover {
+      color: $color-accent-dark;
+    }
+
+    &:active {
+      color: $color-accent-darkest;
+    }
+  }
+}
+
+.background-accent {
+  background-color: $color-accent !important;
+  color: $color-primary !important;
+
+  a {
+    color: $color-primary;
+
+    &:hover {
+      color: $color-primary-dark;
+    }
+
+    &:active {
+      color: $color-primary-darkest;
+    }
+  }
+}
+
+.background-grey {
+  background-color: #3D3F3E !important;
+  color: $color-white !important;
+
+  a, .link-accent {
+    color: $color-accent;
+
+    &:hover {
+      color: $color-accent-dark;
+    }
+
+    &:active {
+      color: $color-accent-darkest;
+    }
+  }
+}
