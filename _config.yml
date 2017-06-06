@@ -44,6 +44,7 @@ data:
     - {src: /assets/img/gallery/16.jpg}
     - {src: /assets/img/gallery/3.jpg}
     - {src: /assets/img/gallery/15.jpg}
+    - {src: /assets/img/gallery/19.jpg}
     - {src: /assets/img/gallery/9.jpg}
     - {src: /assets/img/gallery/4.jpg}
     - {src: /assets/img/gallery/6.jpg}
@@ -54,9 +55,11 @@ data:
     - {src: /assets/img/gallery/14.jpg}
     - {src: /assets/img/gallery/11.jpg}
     - {src: /assets/img/gallery/10.jpg}
+    - {src: /assets/img/gallery/18.jpg}
     - {src: /assets/img/gallery/13.jpg}
     - {src: /assets/img/gallery/12.jpg}
     - {src: /assets/img/gallery/2.jpg}
+    - {src: /assets/img/gallery/17.jpg}
     laurenzo:
     - preview: {src: /assets/img/portfolio/commercial/laurenzo/preview/28.jpg}
       src: /assets/img/portfolio/commercial/laurenzo/28.jpg
@@ -258,7 +261,7 @@ data:
     - {title: Store, url: /store.html}
     - {title: Contact, url: /contact.html}
   products:
-  - ID: 5897ea73413049dd9e17c94eb6763311
+  - ID: 9f9268a1997446e99da6eeb9721b11b8
     frame:
       paypal: {ID: DEMY23LSTSZJL}
       price:
@@ -273,7 +276,7 @@ data:
       value: 350
     size: {height: 48, width: 12}
     type: canvas
-  - ID: ee0c2158e06746d1b4a2578d45653b4a
+  - ID: 81bb7bc1ade5469eaaf66752a72fc937
     image: {src: /assets/img/store/FridaKahlo1}
     medium: [acrylic, oil]
     name: Frida Kahlo 1
@@ -283,7 +286,7 @@ data:
       value: 4500
     size: {height: 32, width: 32}
     type: canvas
-  - ID: a45e06a879ed40fa902f030154823af3
+  - ID: 8f7b6e2791104d9eb1b9121904525306
     frame:
       paypal: {ID: DEMY23LSTSZJL}
       price:
@@ -298,7 +301,7 @@ data:
       value: 700
     size: {height: 18, width: 22}
     type: canvas
-  - ID: c29c81131bb9462788b8dc296a3eb3bc
+  - ID: a0a65ee706e448d780a963313bcc8d5f
     frame:
       paypal: {ID: UE8QQBUZ77KSJ}
       price:
@@ -313,7 +316,7 @@ data:
       value: 300
     size: {height: 14, width: 11}
     type: paper
-  - ID: e55d82a499e740f1949ce1647e42096f
+  - ID: 31d21f24aeaf400784d4d9b3593a072d
     frame:
       paypal: {ID: UE8QQBUZ77KSJ}
       price:
@@ -328,7 +331,7 @@ data:
       value: 350
     size: {height: 14, width: 11}
     type: NA
-  - ID: 1b34a6b7f0eb4fe492bfcb27006c9fc1
+  - ID: 72179d3ca7e14702869fe08ecc66ec7b
     frame:
       paypal: {ID: DEMY23LSTSZJL}
       price:
@@ -343,7 +346,7 @@ data:
       value: 300
     size: {height: 20, width: 30}
     type: canvas
-  - ID: 6734b3bf0e604aeb98c47511e0bfab64
+  - ID: 7ebc4131707947f3b520dfdcc35562b2
     frame:
       paypal: {ID: UE8QQBUZ77KSJ}
       price:
@@ -358,7 +361,7 @@ data:
       value: 250
     size: {height: 20, width: 20}
     type: canvas
-  - ID: 1d2eb54b462b43429ada531ce9627abe
+  - ID: 7ddf2677b95549b396b6274a943052b5
     frame:
       paypal: {ID: DEMY23LSTSZJL}
       price:
@@ -373,7 +376,7 @@ data:
       value: 250
     size: {height: 30, width: 24}
     type: canvas
-  - ID: 219e671f8f09413ca26a10c4442977fd
+  - ID: 7b953c3decaa4b1cb65dd7e18294a1db
     frame:
       paypal: {ID: UE8QQBUZ77KSJ}
       price:
@@ -388,7 +391,7 @@ data:
       value: 300
     size: {height: 20, width: 20}
     type: canvas
-  - ID: 49d9fa44866d41b09628456c26d9a904
+  - ID: a0925eaf358645b980cc78a04dd2fd44
     frame:
       paypal: {ID: DEMY23LSTSZJL}
       price:
@@ -403,7 +406,7 @@ data:
       value: 450
     size: {height: 30, width: 24}
     type: canvas
-  - ID: bc05445473b94a0191619d7a8ee9fad4
+  - ID: 6c9b43d073cd4ca3a4cd43df74a17a68
     frame:
       paypal: {ID: DEMY23LSTSZJL}
       price:
@@ -418,7 +421,7 @@ data:
       value: 400
     size: {height: 30, width: 24}
     type: canvas
-  - ID: 1e86ff305c244e7a8d2c354bedfe6d59
+  - ID: 0a2a4e866f474ff58d03b2af16e70152
     frame:
       paypal: {ID: DEMY23LSTSZJL}
       price:
@@ -433,7 +436,7 @@ data:
       value: 300
     size: {height: 20, width: 30}
     type: NA
-  - ID: 0c69bbd7259f4f9eb06cd97ad5dd1123
+  - ID: f59bdf5cbeb245caa9a1e83a2d26c309
     frame:
       paypal: {ID: DEMY23LSTSZJL}
       price:
@@ -448,7 +451,7 @@ data:
       value: 450
     size: {height: 55, width: 32}
     type: canvas
-  - ID: 880ddc9d544a458caf8bf33230d9f262
+  - ID: 766c1578d213427dbc9b65837c27334d
     frame:
       paypal: {ID: DEMY23LSTSZJL}
       price:
@@ -463,7 +466,7 @@ data:
       value: 250
     size: {height: 30, width: 24}
     type: canvas
-  - ID: ab2dd1f74e544b1ba5897fecbe90c21d
+  - ID: 4689acc4705a487db50ee62d874b5f9f
     frame:
       paypal: {ID: DEMY23LSTSZJL}
       price:
@@ -478,7 +481,7 @@ data:
       value: 450
     size: {height: 48, width: 24}
     type: canvas
-  - ID: 354b2c819838497887ac9c6a6b1093f7
+  - ID: 855b8f0590014f6fb5c9f2d22fb1e6d8
     frame:
       paypal: {ID: DEMY23LSTSZJL}
       price:
@@ -493,7 +496,7 @@ data:
       value: 450
     size: {height: 48, width: 24}
     type: canvas
-  - ID: d74f734b701748058f8e30e9a007f53d
+  - ID: a103d3a389fb463dbbcb5bc40266b750
     frame:
       paypal: {ID: UE8QQBUZ77KSJ}
       price:
@@ -508,7 +511,7 @@ data:
       value: 250
     size: {height: 20, width: 20}
     type: canvas
-  - ID: 735ad463865144268797faf5fb352eb9
+  - ID: 9399afe108e84a9e9d0f02a359ccc2b0
     frame:
       paypal: {ID: UE8QQBUZ77KSJ}
       price:
@@ -523,7 +526,7 @@ data:
       value: 250
     size: {height: 20, width: 20}
     type: canvas
-  - ID: b6c542cec2d84111b28bac561f0dee26
+  - ID: 96d0475e414949b984c970c59974f61a
     frame:
       paypal: {ID: UE8QQBUZ77KSJ}
       price:
@@ -538,7 +541,7 @@ data:
       value: 250
     size: {height: 20, width: 20}
     type: canvas
-  - ID: 54510f7c2213407ea0178d9c4c97ab71
+  - ID: 8650f9692653478f8b2e8ff4b8406fb9
     frame:
       paypal: {ID: DEMY23LSTSZJL}
       price:
