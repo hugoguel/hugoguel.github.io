@@ -1,0 +1,46 @@
+<nav class="navbar navbar-default navbar-accent navbar-fixed-top no-margin" data-scroll-header>
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button class="collapsed navbar-toggle" data-toggle="collapse" data-target="#appbar-collapse">
+        {% for _ in (1..3) %}
+          <span class="icon-bar"></span>
+        {% endfor %}
+      </button><!-- .navbar-toggle -->
+      <a class="navbar-left" href="{{ site.baseurl }}">
+        <img src="{{ site.urls.images }}/brand-logo.png" height="40" style="margin: 5px 5px"/>
+      </a><!-- .navbar-left -->
+    </div><!-- .navbar-header -->
+    <div class="collapse navbar-collapse" id="appbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        {% for link in site.data.navbar.links %}
+          {% if link.dropdown %}
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <div class="text-uppercase font-bold">
+                {{ link.title }} <span class="caret"></span>
+              </div>
+            </a>
+            <ul class="dropdown-menu">
+              {% for mlink in link.menu %}
+                <li>
+                  <a href="{{ mlink.url }}">
+                    {{ mlink.title }}
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+          </li>
+          {% else %}
+          <li>
+            <a data-scroll href="{{ link.url }}" data-toggle="collapse" data-target=".navbar-collapse.in">
+              <div class="text-uppercase font-bold">
+                {{ link.title }}
+              </div><!-- .text-uppercase .font-bold (.navbar-nav li) -->
+            </a>
+          </li>
+          {% endif %}
+        {% endfor %}
+      </ul><!-- .navbar-nav -->
+    </div><!-- .navbar-collapse -->
+  </div><!-- .container-fluid -->
+</nav><!-- .navbar -->

@@ -1,0 +1,9 @@
+# virtual env
+.venv
+
+# Dependencies
+Gemfile.lock
+
+# Cache
+.sass-cache
+_site

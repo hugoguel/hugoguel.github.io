@@ -1,0 +1,18 @@
+---
+layout: page
+---
+{% include components/breadcrumbs.html %}
+
+<div class="wrapper">
+  {% for item in site.data.images[page.images] %}
+  <div class="col-md-4 col-xs-6">
+    <div class="panel panel-default no-background no-border no-shadow">
+      <a href="javascript:void(0);" class="preview" {% if item.preview %}data-source="{{ item.preview.src }}"{% endif %}>
+        <img data-original="{{ item.src }}" class="img-responsive center-block lazy" width="512">
+      </a>
+    </div><!-- .panel -->
+  </div><!-- .col-md-4 -->
+  {% endfor %}
+</div>
+
+{% include components/modals/preview.html %}

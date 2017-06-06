@@ -1,0 +1,26 @@
+---
+layout: page
+---
+{% include components/breadcrumbs.html %}
+
+<div class="row">
+  {% for item in site.data.thumbnails[page.thumbnails] %}
+  <div class="col-md-4">
+    <div class="panel panel-default no-background no-border no-shadow">
+      <a href="{{ item.url }}">
+        <div class="wrapper">
+          <img class="img-responsive center-block lazy" width="512" data-original="{{ item.image.src }}">
+          <div class="text-center">
+            <h4 class="font-bold text-capitalize visible-lg visible-md">
+              {{ item.title }}
+            </h4>
+            <h5 class="font-bold text-capitalize visible-sm visible-xs">
+              {{ item.title }}
+            </h5>
+          </div><!-- .text-center -->
+        </div><!-- .wrapper -->
+      </a>
+    </div><!-- .panel -->
+  </div><!-- .col-md-4 -->
+  {% endfor %}
+</div><!-- .row -->

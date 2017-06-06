@@ -1,0 +1,193 @@
+---
+layout: base
+title: Home
+class_copyright: "background-grey"
+---
+<div class="background-accent">
+  <div class="wrapper" style="margin-top: -50px;">
+    <div class="wrapper"  style="height: 100vh; position: relative;">
+      <div class="container">
+        <div class="wrapper" style="margin-top: 50px;">
+          <div class="jumbotron no-background no-margin">
+            {% include components/gallery.html %}
+          </div><!-- .jumbotron -->
+        </div><!-- .wrapper -->
+        <div class="wrapper">
+          <img class="lazy" data-original="{{ site.urls.images }}/observer.png"
+            style="height: 60vh;
+                   margin: auto;
+                   left: 0px;
+                   right: 0px;
+                   bottom: 0px;
+                   position: absolute;
+                   z-index: 1;">
+        </div><!-- .wrapper -->
+      </div><!-- .container -->
+    </div><!-- .wrapper -->
+  </div><!-- .wrapper -->
+</div><!-- .background-accent -->
+
+<div class="background-primary"
+  style="background-color: #3D3F3E !important;">
+  <div class="container-fluid">
+    <!-- biography -->
+    <section id="biography">
+      <div class="page-header no-border">
+        <img class="img-responsive center-block lazy"
+             height="72"
+             data-original="{{ site.urls.images }}/title/biography.png"/>
+      </div><!-- .page-header -->
+      <img class="img-responsive center-block img-rounded lazy" data-original="{{ site.urls.images }}/potrait-hugo-guel.jpg" width="500">
+      <div class="text-center">
+        <h2 class="font-bold text-uppercase">
+          {{ site.brand.name }}
+        </h2><!-- .font-bold -->
+      </div><!-- .text-center -->
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+          {% for paragraph in site.data.about.paragraphs %}
+            <h4 class="text-justify font-light" style="line-height: 1.5em;">
+              {{ paragraph }}
+            </h4><!-- .text-justify -->
+          {% endfor %}
+        </div><!-- .col (1 - 10 - 1) -->
+      </div><!-- .row -->
+    </section><!-- #biography -->
+    <!-- end biography -->
+  </div><!-- .container-fluid -->
+  <div class="fancyborder" data-border="tr" data-height="100" data-color="#414934"></div>
+</div><!-- .background-primary -->
+
+<div class="background-primary" style="background-color: #414934 !important;">
+  <div class="container-fluid">
+    <!-- timeline -->
+    <section id="timeline">
+      <div class="wrapper">
+        <div class="page-header no-border text-center">
+          <h2 class="text-uppercase font-heavy">Timeline</h2>
+        </div><!-- .page-header -->
+        <div class="wrapper">
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              {% include components/timeline.html %}
+            </div><!-- .col-md-10 -->
+          </div><!-- .row -->
+        </div><!-- .wrapper -->
+      </div><!-- .wrapper -->
+    </section><!-- #timeline -->
+    <!-- end timeline -->
+  </div>
+</div><!-- .background-primary -->
+
+<div class="background-primary" style="background-color: #789468 !important;">
+  <div class="fancyborder" data-border="br" data-height="100" data-color="#414934"></div>
+  <div class="container">
+    <!-- portfolio -->
+    <section id="portfolio">
+      <div class="page-header no-border">
+        <img class="img-responsive center-block lazy" height="72" data-original="{{ site.urls.images }}/title/portfolio.png"/>
+      </div><!-- .page-header -->
+      <div class="row">
+        {% for item in site.data.thumbnails.portfolio %}
+        <div class="col-sm-3 col-xs-6">
+          <div class="panel panel-default no-background no-border no-shadow">
+            <a href="{{ item.url }}">
+              <img class="img-responsive center-block lazy img-thumbnail no-background no-padding" width="512" data-original="{{ item.image.src }}"
+                style="border-color: {{ site.color.primary }};">
+              <div class="text-center">
+                <h4 class="font-bold text-capitalize visible-lg visible-md">
+                  {{ item.title }}
+                </h4>
+                <h5 class="font-bold text-capitalize visible-sm visible-xs">
+                  {{ item.title }}
+                </h5>
+              </div><!-- .text-center -->
+            </a>
+          </div><!-- .panel -->
+        </div><!-- .col-xs-4 -->
+        {% endfor %}
+      </div><!-- .row -->
+    </section><!-- #portfolio -->
+    <!-- end portfolio -->
+  </div><!-- .container -->
+  <div class="fancyborder" data-border="tr" data-height="100" data-color="#3D3F3E"></div>
+</div><!-- .background-inverse -->
+
+<div class="background-primary" style="background-color: #3D3F3E !important;">
+  <div class="container">
+    <!-- contact -->
+    <section id="contact">
+      <!--
+      <div class="page-header no-border">
+        <img class="img-responsive center-block lazy" height="72" data-original="{{ site.urls.images }}/title/contact.png"/>
+      </div>
+      -->
+      <div class="row">
+        <div class="col-md-6">
+          <!-- contact -->
+          <section id="contact">
+            <div class="panel panel-default no-margin no-border no-background no-shadow">
+              <div class="panel-body">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="text-center">
+                      <h4 class="font-bold text-uppercase"
+                        style="color: #789468;">
+                        Keep in touch
+                      </h4>
+                      <form class="fcontact" data-toggle="validator" role="form">
+                        <div class="form-group has-feedback">
+                          <div class="input-group">
+                            <input class="form-control font-bold no-background no-shadow color-accent"
+                              type="email" placeholder="YOUR EMAIL" required
+                              style="
+                                border-top: none !important;
+                                border-left: none !important;
+                                border-right: none !important;
+                                border-bottom: 1px solid #789468;"/>
+                            <div class="input-group-btn">
+                              <button class="btn btn-primary no-background no-border" type="submit">
+                                <i class="fa fa-fw fa-arrow-right"></i>
+                              </button>
+                            </div>
+                          </div>
+                          <div class="help-block with-errors"></div>
+                        </div>
+                      </form>
+                    </div><!-- .text-center -->
+                  </div>
+                </div>
+              </div><!-- .panel-body -->
+            </div><!-- .panel -->
+          </section><!-- #contact -->
+          <!-- end contact -->
+        </div>
+        <div class="col-md-6">
+          <!-- social -->
+          <section id="social">
+            <div class="panel panel-default no-margin no-border no-background no-shadow">
+              <div class="panel-body">
+                <div class="text-center">
+                  <h4 class="font-bold text-uppercase"
+                    style="color: #789468;">
+                    Follow Me
+                  </h4>
+                  <a href="{{ site.brand.social.facebook }}" target="_blank">
+                    <h4 class="font-bold">
+                      <i class="fa fa-fw fa-facebook"></i>
+                    </h4>
+                  </a>
+                </div><!-- .text-center -->
+              </div><!-- .panel-body -->
+            </div><!-- .panel -->
+          </section>
+          <!-- end social -->
+        </div>
+      </div>
+    </section><!-- #contact -->
+    <!-- end contact -->
+  </div><!-- .container-fluid -->
+</div><!-- .background-primary -->
+
+<!-- modal - info -->
+{% include components/modals/info.html %}

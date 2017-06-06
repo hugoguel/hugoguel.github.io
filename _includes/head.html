@@ -1,0 +1,43 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.brand.name }}</title>
+
+  {% include styles.html %}
+
+  <!-- SEO -->
+  {% seo title=false %}
+
+  <!-- robots -->
+  <meta name="robots" content="index,follow">
+  <meta name="googlebot" content="index,follow">
+  <!-- end robots -->
+
+  <meta name="generator" content="jekyll, atom">
+
+  <!-- favicon -->
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="{{ site.baseurl }}/favicon-96x96.png">
+  <!-- icon (Android) -->
+  <link rel="icon" type="image/png" sizes="192x192" href="{{ site.baseurl }}/favicon-192x192.png">
+  <!-- icon (Apple) -->
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/apple-touch-icon-180x180.png">
+  <!-- end favicon -->
+
+  <!-- Status Bar Color (Android) -->
+  <meta name="theme-color"  content="{{ site.color.primary }}">
+  <!-- Add to Home Screen (iOS) -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="{{ site.color.primary }}">
+  <meta name="apple-mobile-web-app-title" content="{{ site.brand.name }}">
+  <!-- Add to Home Screen (Android) -->
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <!-- Author Details -->
+  <link rel="author" href="humans.txt">
+
+  <link rel="me" href="mailto:{{ site.brand.email }}">
+  <link rel="me" href="sms:{{ site.brand.phone }}">
+</head>

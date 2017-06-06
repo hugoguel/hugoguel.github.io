@@ -1,0 +1,9 @@
+// bootstrap overrides
+a, button {
+  text-decoration: none !important;
+  -webkit-transition: .5s;
+     -moz-transition: .5s;
+      -ms-transition: .5s;
+       -o-transition: .5s;
+          transition: .5s;
+}

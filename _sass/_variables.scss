@@ -1,0 +1,29 @@
+// color - base
+$color-white                        : #FFFFFF;
+$color-white-dark                   : #E5E5E5;
+$color-white-darker                 : #CCCCCC;
+$color-white-darkest                : #B2B2B2;
+
+// color - primary
+$color-primary                      : #464A47;
+$color-primary-dark                 : darken($color-primary,  5%);
+$color-primary-darker               : darken($color-primary, 10%);
+$color-primary-darkest              : darken($color-primary, 15%);
+// color - accent
+$color-accent                       : #EDE9E0;
+$color-accent-dark                  : #D5D1C9;
+$color-accent-darker                : #BDBAB3;
+$color-accent-darkest               : #A5A39C;
+// color - inverse
+$color-inverse                      : #789468;
+$color-info                         : #4167AF;
+
+// fonts
+$font-family-base                   : "Roboto", sans-serif;
+$font-weight-light                  : 300;
+$font-weight-regular                : 400;
+$font-weight-bold                   : 700;
+$font-weight-heavy                  : 900;
+
+$body-font-family                   : $font-family-base;
+$body-font-weight                   : $font-weight-regular;

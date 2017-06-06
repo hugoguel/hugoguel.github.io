@@ -1,0 +1,46 @@
+---
+layout: page
+heading: Exhibitions
+---
+<div class="wrapper">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <ul class="timeline timeline-inverse">
+        {% for item in site.data.timelines.exhibition %}
+          {% assign position = forloop.index | modulo: 2 %}
+          {% if position == 0 %}
+            <li>
+          {% else %}
+            <li class="timeline-inverted">
+          {% endif %}
+              <div class="timeline-badge" style="background-color: #680229;">
+                <i class="fa fa-fw fa-paint-brush"></i>
+              </div><!-- .timeline-badge -->
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <div class="wrapper">
+                    <h2 class="timeline-title visible-lg">
+                      {{ item.date.year }}
+                    </h2>
+                    <h4 class="timeline-title hidden-lg">
+                      {{ item.date.year }}
+                    </h4>
+                  </div><!-- .wrapper -->
+                </div><!-- .timeline-heading -->
+                <div class="timeline-body">
+                  <div class="wrapper">
+                    <h4 class="no-margin font-light visible-lg" style="line-height: 1.5em;">
+                      {{ item.content }}
+                    </h4>
+                    <h5  class="no-marign font-light hidden-lg" style="line-height: 1.5em;">
+                      {{ item.content }}
+                    </h5>
+                  </div><!-- .wrapper -->
+                </div><!-- .timeline-body -->
+              </div><!-- .timeline-panel -->
+            </li>
+        {% endfor %}
+      </ul><!-- .timeline -->
+    </div><!-- .col-md-10 -->
+  </div><!-- .row -->
+</div><!-- .wrapper -->
