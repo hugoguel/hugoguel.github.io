@@ -258,14 +258,20 @@ function setupStore ( ) {
   });
 };
 
-$(document).ready(function ( ) {
-  $('.loader-skip').click(hideLoader)
+function hideLoader() {
+  $('.loader').fadeOut(1500, function ( ) {
+    $(this).addClass('hidden')
+  });
+}
 
-  $('.loader img').on('load', function ( ) {
-    setTimeout(function ( ) {
-      hideLoader();
-    }, 10000);
-  })
+$(document).ready(function ( ) {
+  $('.loader-skip').click(function ( ) {
+    hideLoader();
+  });
+
+  setTimeout(function ( ) {
+    hideLoader();
+  }, 10000)
 
   if ( $('.navbar-fixed-top').length ) {
     $('body').css('padding-top', '50px');
