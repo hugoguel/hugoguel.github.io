@@ -163,7 +163,7 @@ class_copyright: "background-grey"
                           <div class="input-group">
                             <input class="form-control font-bold no-background no-shadow color-accent"
                               type="email" placeholder="YOUR EMAIL" required
-                              style="
+                              name="Email" style="
                                 border-top: none !important;
                                 border-left: none !important;
                                 border-right: none !important;
@@ -175,6 +175,10 @@ class_copyright: "background-grey"
                             </div>
                           </div>
                           <div class="help-block with-errors"></div>
+                          <!-- formspree.io options -->
+                          <input type="hidden" name="Subject" value="Keep In Touch | {{ site.brand.name }}'s Website">
+                          <input type="text" name="_gotcha" style="display:none"/>
+                          <!-- end formspree.io options -->
                         </div>
                       </form>
                     </div><!-- .text-center -->
