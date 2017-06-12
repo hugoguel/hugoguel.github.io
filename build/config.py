@@ -34,7 +34,7 @@ CONFIG.path.images                          = os.path.join(CONFIG.path.assets,  
 # brand
 CONFIG.brand.name                           = 'Hugo Guel'
 CONFIG.brand.email                          = 'hugoguelartist@gmail.com'
-CONFIG.brand.phone                          = ''
+CONFIG.brand.phone                          = '+18322160282'
 CONFIG.brand.description                    = "Official Website of Artist Hugo Guel. Discover a collection of Hugo Guel's most prominent artworks."
 CONFIG.brand.social.facebook                = 'https://www.facebook.com/Club-de-Arte-Latino-Americano-Artista-Hugo-Guel-211925969251288'
 

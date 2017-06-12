@@ -5,7 +5,7 @@ brand:
     Guel's most prominent artworks.
   email: hugoguelartist@gmail.com
   name: Hugo Guel
-  phone: ''
+  phone: '+18322160282'
   social: {facebook: 'https://www.facebook.com/Club-de-Arte-Latino-Americano-Artista-Hugo-Guel-211925969251288'}
 color: {accent: '#EDE9E0', primary: '#464A47'}
 data:
@@ -261,7 +261,7 @@ data:
     - {title: Store, url: /store.html}
     - {title: Contact, url: /contact.html}
   products:
-  - ID: 535213bb5a774097a1183cf3a0b68cdf
+  - ID: ae929019183e4bcf8867d22308bad27e
     frame:
       paypal: {ID: DEMY23LSTSZJL}
       price:
@@ -276,7 +276,7 @@ data:
       value: 350
     size: {height: 48, width: 12}
     type: canvas
-  - ID: 6741140b2f7049f3a55cf4ad6253a50b
+  - ID: 7199c190f7b44c11bf4f7619d3abde82
     image: {src: /assets/img/store/FridaKahlo1}
     medium: [acrylic, oil]
     name: Frida Kahlo 1
@@ -286,7 +286,7 @@ data:
       value: 4500
     size: {height: 32, width: 32}
     type: canvas
-  - ID: a539bc0f90534771aa4724712607890d
+  - ID: 9d12fc149a80470dabf05659917a695f
     frame:
       paypal: {ID: DEMY23LSTSZJL}
       price:
@@ -301,7 +301,7 @@ data:
       value: 700
     size: {height: 18, width: 22}
     type: canvas
-  - ID: 9e3210a95f334757be9bb70dd7f5edd8
+  - ID: 4bdf6b6bb5354680933a6ac8ae5e2f8f
     frame:
       paypal: {ID: UE8QQBUZ77KSJ}
       price:
@@ -316,7 +316,7 @@ data:
       value: 300
     size: {height: 14, width: 11}
     type: paper
-  - ID: 18109db787f741e88780999cf69fd56a
+  - ID: d6838db293e14831a684aa0ce5e28969
     frame:
       paypal: {ID: UE8QQBUZ77KSJ}
       price:
@@ -331,7 +331,7 @@ data:
       value: 350
     size: {height: 14, width: 11}
     type: NA
-  - ID: 48f7c6b82180488c8cb8aa9e1d67a12b
+  - ID: 363ea3c2fa014eeea25f4b9ad5bdc773
     frame:
       paypal: {ID: DEMY23LSTSZJL}
       price:
@@ -346,7 +346,7 @@ data:
       value: 300
     size: {height: 20, width: 30}
     type: canvas
-  - ID: 709b772a7f3c4583b9f172c61a2f6c7b
+  - ID: 4776b5c2195b4956a2a309a2b9e261c8
     frame:
       paypal: {ID: UE8QQBUZ77KSJ}
       price:
@@ -361,7 +361,7 @@ data:
       value: 250
     size: {height: 20, width: 20}
     type: canvas
-  - ID: 2e2ffa8ef00747e69e534d15f4440a59
+  - ID: 4d36e3a6060a45c49c3a21d3cdb80096
     frame:
       paypal: {ID: DEMY23LSTSZJL}
       price:
@@ -376,7 +376,7 @@ data:
       value: 250
     size: {height: 30, width: 24}
     type: canvas
-  - ID: 0a451ea91adb44179a34fd58f788fe0c
+  - ID: af8e1d77f4db4a7ebf356c7a56b641e6
     frame:
       paypal: {ID: UE8QQBUZ77KSJ}
       price:
@@ -391,7 +391,7 @@ data:
       value: 300
     size: {height: 20, width: 20}
     type: canvas
-  - ID: c87414f4691c4798b9a279e25fe8bda7
+  - ID: 6d2c24429faf4f34af23c829d8ed4de7
     frame:
       paypal: {ID: DEMY23LSTSZJL}
       price:
@@ -406,7 +406,7 @@ data:
       value: 450
     size: {height: 30, width: 24}
     type: canvas
-  - ID: 81db62b5e4b443b8bd01d6fc77af8ac9
+  - ID: d9494cba942548c4997618ba26e63955
     frame:
       paypal: {ID: DEMY23LSTSZJL}
       price:
@@ -421,7 +421,7 @@ data:
       value: 400
     size: {height: 30, width: 24}
     type: canvas
-  - ID: eb7a6cf94dcf49f2ba3c0f9dcb62beaf
+  - ID: 17c50569c23d40eda0cd45570e7d3cdf
     frame:
       paypal: {ID: DEMY23LSTSZJL}
       price:
@@ -436,7 +436,7 @@ data:
       value: 300
     size: {height: 20, width: 30}
     type: NA
-  - ID: 41bc9a7a2f9c4329b8dae4a5390cc8ea
+  - ID: 7a0fafa7d1b3428181be251f1ce8e6b9
     frame:
       paypal: {ID: DEMY23LSTSZJL}
       price:
@@ -451,7 +451,7 @@ data:
       value: 450
     size: {height: 55, width: 32}
     type: canvas
-  - ID: f9c1899dc10a478ab76acfbeb412c24e
+  - ID: 7b890531cac64a5487aa3aa3390195ce
     frame:
       paypal: {ID: DEMY23LSTSZJL}
       price:
@@ -466,7 +466,7 @@ data:
       value: 250
     size: {height: 30, width: 24}
     type: canvas
-  - ID: 55bb67275aec4878a6c7b0789cef168d
+  - ID: 2c58355dc8474390a78a592465e36566
     frame:
       paypal: {ID: DEMY23LSTSZJL}
       price:
@@ -481,7 +481,7 @@ data:
       value: 450
     size: {height: 48, width: 24}
     type: canvas
-  - ID: 1a9b02b20165410ba64288e6b584a5c6
+  - ID: fd91e3e22f004c168fd044b66b1d0524
     frame:
       paypal: {ID: DEMY23LSTSZJL}
       price:
@@ -496,7 +496,7 @@ data:
       value: 450
     size: {height: 48, width: 24}
     type: canvas
-  - ID: fd2699c650dd4c97850e8309e5a5033c
+  - ID: fca2e670ac6d4accbeab5c9b35171eda
     frame:
       paypal: {ID: UE8QQBUZ77KSJ}
       price:
@@ -511,7 +511,7 @@ data:
       value: 250
     size: {height: 20, width: 20}
     type: canvas
-  - ID: 80eb4744962f4d4aa8c9bcfa7902f98e
+  - ID: 54e770283cc1498d8917634f19b7e80f
     frame:
       paypal: {ID: UE8QQBUZ77KSJ}
       price:
@@ -526,7 +526,7 @@ data:
       value: 250
     size: {height: 20, width: 20}
     type: canvas
-  - ID: 2f25603cac74412bb40fdff5a8514b2e
+  - ID: 13d56418f4c144b1a23b51b36fa23411
     frame:
       paypal: {ID: UE8QQBUZ77KSJ}
       price:
@@ -541,7 +541,7 @@ data:
       value: 250
     size: {height: 20, width: 20}
     type: canvas
-  - ID: 3ade89cb84c04db0ba4ed0514a0d2b23
+  - ID: f832fabe1e15423aa679815a8661543b
     frame:
       paypal: {ID: DEMY23LSTSZJL}
       price:

@@ -3,6 +3,29 @@ layout: base
 title: Home
 class_copyright: "background-grey"
 ---
+<div class="loader"
+  style="position: fixed;
+         top: 0; left: 0; bottom: 0; right: 0;
+         display: flex;
+         align-items: center;
+         min-height: 100%;
+         min-height: 100vh;
+         background-color: {{ site.color.accent }};
+         z-index: 9999;">
+  <img src="{{ site.urls.images }}/landing-animation.gif" class="img-responsive center-block"/>
+  <div class="navbar-fixed-bottom">
+    <div class="panel panel-default no-background no-border no-shadow no-margin">
+      <div class="panel-body">
+        <div class="text-right">
+          <button class="btn btn-primary no-border-radius loader-skip" href="javascript:void(0);">
+            Skip <i class="fa fa-fw fa-step-backward"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="background-accent">
   <div class="wrapper" style="margin-top: -50px;">
     <div class="wrapper"  style="height: 100vh; position: relative;">
@@ -55,7 +78,7 @@ class_copyright: "background-grey"
     </section><!-- #biography -->
     <!-- end biography -->
   </div><!-- .container-fluid -->
-  <div class="fancyborder" data-border="tr" data-height="100" data-color="#414934"></div>
+  <!-- <div class="fancyborder" data-border="tr" data-height="100" data-color="#414934"></div> -->
 </div><!-- .background-primary -->
 
 <div class="background-primary" style="background-color: #414934 !important;">
@@ -80,7 +103,7 @@ class_copyright: "background-grey"
 </div><!-- .background-primary -->
 
 <div class="background-primary" style="background-color: #789468 !important;">
-  <div class="fancyborder" data-border="br" data-height="100" data-color="#414934"></div>
+  <!-- <div class="fancyborder" data-border="br" data-height="100" data-color="#414934"></div> -->
   <div class="container">
     <!-- portfolio -->
     <section id="portfolio">
@@ -110,7 +133,7 @@ class_copyright: "background-grey"
     </section><!-- #portfolio -->
     <!-- end portfolio -->
   </div><!-- .container -->
-  <div class="fancyborder" data-border="tr" data-height="100" data-color="#3D3F3E"></div>
+  <!-- <div class="fancyborder" data-border="tr" data-height="100" data-color="#3D3F3E"></div> -->
 </div><!-- .background-inverse -->
 
 <div class="background-primary" style="background-color: #3D3F3E !important;">

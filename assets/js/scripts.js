@@ -70,29 +70,29 @@ function displayAlert (alert) {
   $(".modal-info").modal("show");
 };
 
-function renderFancyBorder ( ) {
-  $(".fancyborder").each(function ( ) {
-    var $element  = $(this)
-    ,   $parent   = $(this).parent()
-    ,   width     = $parent.width()
-    ,   height    = $element.data("height") || 50
-    ,   border    = $element.data("border")
-    ,   color     = $element.data("color")  || "rgb(0, 0, 0)"
-    ,   positions = Array.from(border);
-
-    if ( positions.includes("t") ) {
-      $element.css("border-bottom", height + "px solid " + color);
-    }
-
-    if ( positions.includes("b") ) {
-      $element.css("border-top",    height + "px solid " + color);
-    }
-
-    if ( positions.includes("r") ) {
-      $element.css("border-left",   width  + "px solid transparent");
-    }
-  });
-};
+// function renderFancyBorder ( ) {
+//   $(".fancyborder").each(function ( ) {
+//     var $element  = $(this)
+//     ,   $parent   = $(this).parent()
+//     ,   width     = $parent.width()
+//     ,   height    = $element.data("height") || 50
+//     ,   border    = $element.data("border")
+//     ,   color     = $element.data("color")  || "rgb(0, 0, 0)"
+//     ,   positions = Array.from(border);
+//
+//     if ( positions.includes("t") ) {
+//       $element.css("border-bottom", height + "px solid " + color);
+//     }
+//
+//     if ( positions.includes("b") ) {
+//       $element.css("border-top",    height + "px solid " + color);
+//     }
+//
+//     if ( positions.includes("r") ) {
+//       $element.css("border-left",   width  + "px solid transparent");
+//     }
+//   });
+// };
 
 function sendEmail (email, data, callback) {
   // calback(success, error)
@@ -259,6 +259,8 @@ function setupStore ( ) {
 };
 
 $(document).ready(function ( ) {
+  $('.loader-skip').click(hideLoader);
+
   if ( $('.navbar-fixed-top').length ) {
     $('body').css('padding-top', '50px');
   }
@@ -279,7 +281,7 @@ $(document).ready(function ( ) {
   setupGallery();
 
   // fancyborder
-  renderFancyBorder();
+  // renderFancyBorder();
 
   $(".copyright-date").each(function ( ) {
     var $element = $(this)
@@ -337,7 +339,17 @@ $(document).ready(function ( ) {
   setupStore();
 });
 
+function hideLoader() {
+  $('.loader').fadeOut(1500, function ( ) {
+    $(this).addClass('hidden');
+  });
+}
+
 $(window).load(function ( ) {
+    setTimeout(function ( ) {
+      hideLoader();
+    }, 10000);
+
     $(".goog-te-combo").data("style", "btn-accent")
                        .addClass("show-tick");
     $("select").selectpicker();
