@@ -260,10 +260,12 @@ function setupStore ( ) {
 
 $(document).ready(function ( ) {
   $('.loader-skip').click(hideLoader)
-  
-  setTimeout(function ( ) {
-    hideLoader();
-  }, 10000);
+
+  $('.loader img').on('load', function ( ) {
+    setTimeout(function ( ) {
+      hideLoader();
+    }, 10000);
+  })
 
   if ( $('.navbar-fixed-top').length ) {
     $('body').css('padding-top', '50px');
